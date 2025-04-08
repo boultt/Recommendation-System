@@ -65,7 +65,7 @@ def recommend_songs(song_name, df, num_recommendations=5):
     return recommendations
 
 # --- Streamlit UI ---
-st.set_page_config(page_title="Vibe - Music Recommender", layout="wide")
+st.set_page_config(page_title="VibeVerse", layout="wide")
 
 st.markdown("<h1 style='font-size: 3rem; color:#1DB954;'>VibeVerse</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='margin-top:-20px;'>Music Recommender System</h3>", unsafe_allow_html=True)
